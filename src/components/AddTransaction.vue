@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { ref, toDisplayString } from 'vue'
+import { ref } from 'vue'
 import { useToast } from 'vue-toastification'
 
 const text = ref('')
